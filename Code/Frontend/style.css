@@ -3,11 +3,9 @@
     padding: 0;
 }
 
-.FirstArea, .Content{
+.FirstArea{
     background-color: #1F2739;
-}
-.Content{
-    padding: 50px;
+    padding-bottom: 20px;
 }
 
 .NavBar{
@@ -75,4 +73,25 @@ ul{
 .Explanation{
     width: 40%;
 }
+.Boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
 
+}
+.box{
+    border: 2px solid  #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.RandomInformation{
+    margin-bottom: 100px;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
