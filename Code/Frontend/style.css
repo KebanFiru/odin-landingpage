@@ -42,12 +42,14 @@ ul{
     color: #E5E7EB;
     font-size: 18px;
 }
-.LeftMiniFlex, .RightContentFlex{
+.LeftMiniFlex{
     display: flex;
     flex-direction: column;
 }
 
 .RightContentFlex{
+    display: flex;
+    flex-direction: column;
     padding-left: 0px;
 }
 .LeftMiniFlex {
