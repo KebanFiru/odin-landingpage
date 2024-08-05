@@ -157,3 +157,12 @@ ul{
 .LeftPart{
     color: White;
 }
+
+.FifthPart{
+    background-color: #1F2739;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
